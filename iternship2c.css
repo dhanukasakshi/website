@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.topnav {
+  position: fixed;
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #808080;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-centered img{
+	width: 50px;
+	height: 50px;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+
+
+
+#banner
+{
+  background-image:linear-gradient(to right, #808080, #5F6C6D);
+  color:light;
+  padding-top:6%;
+  padding-bottom: 10%;
+}
+.promo-title{
+font-size:40px;
+font-weight: 600;
+margin-top: 100px;
+}
+.ply-btn{
+  width:45px;
+  margin:20px;
+}
+#banner a{
+  color:#000;
+  text-decoration: none;
+}
+.bottom-img{
+  width:100%;
+}
+
+
+
+#services
+{
+  padding: 80px 0;
+}
+.service-img
+{
+  width: 100px;
+  margin-top: 20px;
+}
+.services
+{
+  padding : 20px;
+}
+.services h4
+{
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.services p{
+ color: #000;
+
+}
+.tittle::before
+{
+  content: '';
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+  
+}
+.tittle
+{
+    font-family: algerian;
+}
+
+
+.tittle::after
+{
+  content: '';
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+  
+}
+#services .btn-primary
+{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image:linear-gradient(to right, #ffebee, #c2185b);
+
+}
+
+.tittle::before
+{
+  content: '';
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+  
+}
+
+.tittle::after
+{
+  content: '';
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+ 
+#about-us
+{
+  background: #f8f9fa;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.about-tittle
+{
+   font-size: 40px;
+   font-weight: 600;
+   margin-top: 8%;
+   padding-bottom: 10px;
+   color: #000;
+}
+
+#about-us ul li
+{
+  margin: 10px 0;
+  padding-top:5px;
+  color: #000;
+}
+.img-fluid img{
+	height: 200px;
+	width: 200px;
+
+}
+
+#about-us ul 
+{
+  margin-left: 20px;
+}
+
+
+.container{
+
+border-radius: 10px;
+overflow: hidden;
+}
+
+#carouselExampleControls{
+	padding:50px;
+	background-color: #808080;
+}
+
+.box {
+    margin: auto
+}
+
+.card {
+    padding: 8%;
+    padding-top: 35px;
+    margin-top: 60px;
+    margin-bottom: 80px
+}
+.row{
+	color:#fff;
+
+
+}
+textarea[name="message"] {
+    resize: none
+}
+
+#e-mail {
+    height: 45px
+}
+
+#message {
+    height: 120px
+}
+
+input.input-box,
+textarea.input-box {
+    background-color: #616161;
+    border: #616161;
+    color: #BDBDBD
+}
+
+input.input-box:focus,
+textarea.input-box:focus {
+    background-color: #000000;
+    color: #BDBDBD
+}
+
+.rm-border:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+form .form-control::-webkit-input-placeholder {
+    color: #9E9E9E
+}
+
+::-moz-placeholder {
+    color: #9E9E9E !important
+}
+
+input.btn-purple {
+    background-color: #5C6BC0;
+    color: #ffffff
+}
